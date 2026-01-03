@@ -1,0 +1,16 @@
+services:
+  lucky-path:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: lucky-path-web
+    restart: always
+    networks:
+      - coolify
+    labels:
+      - "coolify.managed=true"
+
+networks:
+  coolify:
+    external: true
+

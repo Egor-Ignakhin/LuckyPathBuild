@@ -1,0 +1,18 @@
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDEs
+.cursor/
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Docker/Environment
+.env
+.env.*
+!.env.example
+
