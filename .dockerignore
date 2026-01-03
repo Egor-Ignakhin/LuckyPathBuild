@@ -1,8 +1,7 @@
-Dockerfile
-docker-compose.yaml
-nginx.conf
 .git
 .github
 .gitignore
 .cursor/
-
+node_modules/
+dist/
+.DS_Store
