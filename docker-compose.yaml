@@ -4,8 +4,6 @@ services:
       context: .
       dockerfile: Dockerfile
     restart: always
-    expose:
-      - 80
     networks:
       - coolify
     labels:
