@@ -1,4 +1,4 @@
-FROM nginx:alpine
+FROM registry.timeweb.cloud/library/nginx:alpine
 
 RUN rm -rf /etc/nginx/conf.d/default.conf && \
     rm -rf /usr/share/nginx/html/*
